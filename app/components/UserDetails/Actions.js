@@ -1,9 +1,7 @@
 import React from 'react';
-import { View, Platform, TouchableOpacity, Text } from 'react-native';
-import Icon from 'react-native-vector-icons/Ionicons';
+import { View } from 'react-native';
 
-import styles, { ICON_SIZE } from './style';
-import colors from '../../config/colors';
+import styles from './style';
 import { toPhoneNumber } from '../../helpers/string';
 import Row from './Row';
 

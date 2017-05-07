@@ -4,7 +4,6 @@ import Icon from 'react-native-vector-icons/Ionicons';
 
 import styles, { ICON_SIZE } from './style';
 import colors from '../../config/colors';
-import { toPhoneNumber } from '../../helpers/string';
 
 const Row = ({ label, body, actions = [] }) => {
   return (
